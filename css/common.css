@@ -182,3 +182,66 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
 }
+#controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: auto;
+  height: 104px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+  input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 60px;
+    width: 150px;
+    height: 40px;
+  }
+}
+.createbtn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.destroybtn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+#boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 32px;
+  width: auto;
+  height: auto;
+  background: #f6f6fe;
+}
